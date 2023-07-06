@@ -27,7 +27,7 @@
 * rsync
 * openssh
 
-Detailed package version can be found in the Dockerfile.
+Detailed package versions can be found in the [Dockerfile](Dockerfile).
 
 ## Maintenance
 
