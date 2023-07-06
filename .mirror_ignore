@@ -1,6 +1,0 @@
-.envrc
-.drone.yml
-.renovate.json
-.mirror_ignore_list
-.markdownlint.json
-.pre-commit-config.yaml
