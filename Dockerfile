@@ -20,7 +20,7 @@ ENV LFTP_VERSION="4.9.2-r5"
 # renovate: datasource=repology depName=alpine_3_18/rsync versioning=loose
 ENV RSYNC_VERSION="3.2.7-r4"
 # renovate: datasource=repology depName=alpine_3_18/openssh versioning=loose
-ENV OPENSSH_VERSION="9.3_p1-r3"
+ENV OPENSSH_VERSION="9.3_p2-r0"
 
 RUN apk add --no-cache \
     curl="$CURL_VERSION" \
