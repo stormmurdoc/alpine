@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.schema-version="3.18"
 
 # renovate: datasource=repology depName=alpine_3_18/curl versioning=loose
-ENV CURL_VERSION="8.2.0-r0"
+ENV CURL_VERSION="8.1.2-r0"
 # renovate: datasource=repology depName=alpine_3_18/git versioning=loose
 ENV GIT_VERSION="2.40.1-r0"
 # renovate: datasource=repology depName=alpine_3_18/go versioning=loose
@@ -20,7 +20,7 @@ ENV LFTP_VERSION="4.9.2-r5"
 # renovate: datasource=repology depName=alpine_3_18/rsync versioning=loose
 ENV RSYNC_VERSION="3.2.7-r4"
 # renovate: datasource=repology depName=alpine_3_18/openssh versioning=loose
-ENV OPENSSH_VERSION="9.3_p1-r3"
+ENV OPENSSH_VERSION="9.3_p2-r0"
 
 RUN apk add --no-cache \
     curl="$CURL_VERSION" \
