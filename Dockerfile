@@ -1,4 +1,4 @@
-FROM alpine:3.19@sha256:13b7e62e8df80264dbb747995705a986aa530415763a6c58f84a3ca8af9a5bcd
+FROM alpine:3.18@sha256:d695c3de6fcd8cfe3a6222b0358425d40adfd129a8a47c3416faff1a8aece389
 
 LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.name="Alpine base image" \
@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.schema-version="3.18"
 
 # renovate: datasource=repology depName=alpine_3_18/curl versioning=loose
-ENV CURL_VERSION="8.4.0-r0"
+ENV CURL_VERSION="8.5.0-r0"
 # renovate: datasource=repology depName=alpine_3_18/git versioning=loose
 ENV GIT_VERSION="2.40.1-r0"
 # renovate: datasource=repology depName=alpine_3_18/go versioning=loose
