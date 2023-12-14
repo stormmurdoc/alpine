@@ -1,9 +1,9 @@
-FROM alpine:3.19@sha256:13b7e62e8df80264dbb747995705a986aa530415763a6c58f84a3ca8af9a5bcd
+FROM alpine:3.19
 
 LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.name="Alpine base image" \
       org.label-schema.vendor="murdoc" \
-      org.label-schema.schema-version="3.18"
+      org.label-schema.schema-version="3.19"
 
 # renovate: datasource=repology depName=alpine_3_18/curl versioning=loose
 ENV CURL_VERSION="8.5.0-r0"
