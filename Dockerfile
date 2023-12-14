@@ -12,9 +12,9 @@ ENV GIT_VERSION="2.40.1-r0"
 # renovate: datasource=repology depName=alpine_3_19/go versioning=loose
 ENV GO_VERSION="1.20.11-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash versioning=loose
-ENV BASH_VERSION="5.2.15-r5"
+ENV BASH_VERSION="5.2.21-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash-completion versioning=loose
-ENV BASH_COMPLETION_VERSION="2.11-r6"
+ENV BASH_COMPLETION_VERSION="2.11-r5"
 # renovate: datasource=repology depName=alpine_3_19/lftp versioning=loose
 ENV LFTP_VERSION="4.9.2-r5"
 # renovate: datasource=repology depName=alpine_3_19/rsync versioning=loose
