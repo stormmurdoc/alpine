@@ -8,7 +8,7 @@ LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
 # renovate: datasource=repology depName=alpine_3_19/curl versioning=loose
 ENV CURL_VERSION="8.5.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/git versioning=loose
-ENV GIT_VERSION="2.40.1-r0"
+ENV GIT_VERSION="2.43.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/go versioning=loose
 ENV GO_VERSION="1.20.11-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash versioning=loose
