@@ -10,7 +10,7 @@ ENV CURL_VERSION="8.5.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/git versioning=loose
 ENV GIT_VERSION="2.43.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/go versioning=loose
-ENV GO_VERSION="1.20.11-r0"
+ENV GO_VERSION="1.21.5-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash versioning=loose
 ENV BASH_VERSION="5.2.21-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash-completion versioning=loose
@@ -20,7 +20,7 @@ ENV LFTP_VERSION="4.9.2-r6"
 # renovate: datasource=repology depName=alpine_3_19/rsync versioning=loose
 ENV RSYNC_VERSION="3.2.7-r4"
 # renovate: datasource=repology depName=alpine_3_19/openssh versioning=loose
-ENV OPENSSH_VERSION="9.3_p2-r0"
+ENV OPENSSH_VERSION="9.5_p1-r0"
 
 RUN apk add --no-cache \
     curl="$CURL_VERSION" \
