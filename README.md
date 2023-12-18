@@ -8,6 +8,7 @@
 
 * [Version](#version)
 * [Packages](#packages)
+* [Default shell](#default-shell)
 * [Maintenance](#maintenance)
 * [Mirror](#mirror)
 
@@ -19,15 +20,20 @@
 
 ## Packages
 
+* bash
 * curl
 * git
 * go
-* bash
 * lftp
-* rsync
 * openssh
+* rsync
 
 Detailed package versions can be found in the [Dockerfile](Dockerfile).
+
+## Default shell
+
+Instead of the default shell `/bin/ash`, this image uses the bash `/bin/bash`
+for the root user.
 
 ## Maintenance
 
