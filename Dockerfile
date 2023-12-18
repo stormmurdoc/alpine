@@ -21,6 +21,8 @@ ENV LFTP_VERSION="4.9.2-r6"
 ENV RSYNC_VERSION="3.2.7-r4"
 # renovate: datasource=repology depName=alpine_3_19/openssh versioning=loose
 ENV OPENSSH_VERSION="9.5_p1-r0"
+# renovate: datasource=repology depName=alpine_3_19/shadow versioning=loose
+ENV SHADOW_VERSION="4.14.2-r0"
 
 RUN apk add --no-cache \
     curl="$CURL_VERSION" \
@@ -31,6 +33,8 @@ RUN apk add --no-cache \
     lftp="$LFTP_VERSION" \
     rsync="$RSYNC_VERSION" \
     openssh="$OPENSSH_VERSION" \
+    shadow="$SHADOW_VERSION" \
+  && chsh -s /bin/bash root \
   && rm -rf /var/cache/apk/*
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
