@@ -1,0 +1,14 @@
+{
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "extensions": [],
+  "mounts": [
+    "source=projectname-zshhistory,target=/commandhistory,type=volume"
+  ],
+  "name": "Alpine Container",
+  "remoteUser": "murdoc",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  }
+}
