@@ -7,7 +7,7 @@
     "source=projectname-zshhistory,target=/commandhistory,type=volume"
   ],
   "name": "Alpine Container",
-  "remoteUser": "murdoc",
+  "remoteUser": "root",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/zsh"
   }
