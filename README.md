@@ -1,12 +1,44 @@
-# devcontainer
+# Custom alpine image
 
-Just a development container setup.
+[![Build Status](https://ci.bueraner.de/api/badges/murdoc/alpine/status.svg)](https://ci.bueraner.de/murdoc/alpine)
 
-## Usage
+## Table of Content
 
-Type the following command to start
-the container.
+<!-- vim-markdown-toc GFM -->
 
-```shell
-devpod up ./ --ide none
-```
+* [Version](#version)
+* [Packages](#packages)
+* [Default shell](#default-shell)
+* [Maintenance](#maintenance)
+* [Mirror](#mirror)
+
+<!-- vim-markdown-toc -->
+
+## Version
+
+* `Alpine Version 3.19`
+
+## Packages
+
+* bash
+* curl
+* git
+* go
+* lftp
+* openssh
+* rsync
+
+Detailed package versions can be found in the [Dockerfile](Dockerfile).
+
+## Default shell
+
+Instead of the default shell `/bin/ash`, this image uses the bash `/bin/bash`
+for the root user.
+
+## Maintenance
+
+All packages were maintained by renovatebot.
+
+## Mirror
+
+This repo is only a mirror from a private gitea instance.
