@@ -20,7 +20,7 @@ ENV LFTP_VERSION="4.9.2-r6"
 # renovate: datasource=repology depName=alpine_3_19/rsync versioning=loose
 ENV RSYNC_VERSION="3.2.7-r4"
 # renovate: datasource=repology depName=alpine_3_19/openssh versioning=loose
-ENV OPENSSH_VERSION="9.5_p1-r0"
+ENV OPENSSH_VERSION="9.6_p1-r0"
 # renovate: datasource=repology depName=alpine_3_19/shadow versioning=loose
 ENV SHADOW_VERSION="4.14.2-r0"
 
