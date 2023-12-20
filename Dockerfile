@@ -8,6 +8,7 @@ ARG USERNAME=murdoc
 ENV USERNAME=${USERNAME}
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
+# hadolint disable=DL3008
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME --shell /bin/zsh \
     #
@@ -26,6 +27,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
     vim git curl ca-certificates build-essential git-lfs
 
 USER $USERNAME
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN curl -fsSL https://starship.rs/install.sh | sh -s -- --yes \
     && git config --global core.editor "vim" \
     && git config --global user.email "murdoc@storm-clan.de" \
