@@ -4,15 +4,15 @@
 
 ## Table of Content
 
-<!-- vim-markdown-toc GFM -->
+<!-- toc -->
 
-* [Version](#version)
-* [Packages](#packages)
-* [Default shell](#default-shell)
-* [Maintenance](#maintenance)
-* [Mirror](#mirror)
+- [Version](#version)
+- [Packages](#packages)
+- [Default shell](#default-shell)
+- [Maintenance](#maintenance)
+- [Mirror](#mirror)
 
-<!-- vim-markdown-toc -->
+<!-- tocstop -->
 
 ## Version
 
