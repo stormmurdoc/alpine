@@ -10,7 +10,7 @@ ENV CURL_VERSION="8.5.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/git versioning=loose
 ENV GIT_VERSION="2.43.0-r0"
 # renovate: datasource=repology depName=alpine_3_19/go versioning=loose
-ENV GO_VERSION="1.21.9-r0"
+ENV GO_VERSION="1.21.10-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash versioning=loose
 ENV BASH_VERSION="5.2.21-r0"
 # renovate: datasource=repology depName=alpine_3_19/bash-completion versioning=loose
