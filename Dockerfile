@@ -1,4 +1,4 @@
-FROM alpine:3.19
+FROM alpine:3.20
 
 LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.name="Alpine base image" \
