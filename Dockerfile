@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.authors="murdoc@storm-clan.de" \
       org.label-schema.schema-version="3.19"
 
 # renovate: datasource=repology depName=alpine_3_19/curl versioning=loose
-ENV CURL_VERSION="8.9.0-r0"
+ENV CURL_VERSION="8.9.1-r0"
 # renovate: datasource=repology depName=alpine_3_19/git versioning=loose
 ENV GIT_VERSION="2.43.4-r0"
 # renovate: datasource=repology depName=alpine_3_19/go versioning=loose
