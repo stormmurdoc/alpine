@@ -16,17 +16,19 @@
 
 ## Version
 
-* `Alpine Version 3.19`
+* `Alpine Version 3.20`
 
 ## Packages
 
 * bash
+* bash-completion
 * curl
 * git
 * go
 * lftp
 * openssh
 * rsync
+* shadow
 
 Detailed package versions can be found in the [Dockerfile](Dockerfile).
 
